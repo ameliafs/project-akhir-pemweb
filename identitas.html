@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identitas Karyawan</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>PT Kurir Terdepan</h2>
+      </div>
+      <ul class="menu">
+        <li class="menu-item active" onclick="window.location.href='identitas.html'">
+          <span>👤</span> Identitas
+        </li>
+        <li class="menu-item" onclick="window.location.href='input_data.html'">
+          <span>✏</span> Input Data
+        </li>
+        <li class="menu-item" onclick="window.location.href='rekap_data.html'">
+          <span>📋</span> Rekap Data
+        </li>
+        <li class="menu-item" onclick="window.location.href='login.html'">
+          <span>↩</span> Logout
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <div class="main-header">
+        <h1>Identitas Karyawan</h1>
+        <p>Halaman untuk melihat informasi karyawan PT Kurir Terdepan</p>
+      </div>
+
+      <div class="employee-container-identitas">
+        <!-- Header Identitas -->
+        <div class="employee-header">
+          <h3>Detail Identitas Karyawan</h3>
+        </div>
+
+        <!-- Foto dan Tabel Identitas -->
+        <div class="photo-container">
+          <img class="employee-photo" src="manager.jpg" alt="Foto Rafael Barack Elmahara">
+        </div>        
+        <table class="employee-info">
+          <tr>
+            <th>Nama</th>
+            <td>Rafael Barack Elmahara</td>
+          </tr>
+          <tr>
+            <th>Jabatan</th>
+            <td>Manager</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>rafa.elmahara@kurirterdepan.com</td>
+          </tr>
+          <tr>
+            <th>Tempat, Tanggal Lahir</th>
+            <td>Bekasi, 3 Oktober 2001</td>
+          </tr>
+          <tr>
+            <th>Nomor Telepon</th>
+            <td>+62 812 3456 7890</td>
+          </tr>
+          <tr>
+            <th>Alamat</th>
+            <td>Jl. Merbabu No 25, Tambun Bekasi</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

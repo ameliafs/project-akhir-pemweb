@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Kurir Dashboard</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>PT Kurir Terdepan</h2>
+        
+      </div>
+      <ul class="menu">
+        <li class="menu-item active" onclick="window.location.href='dashboard.html'">
+          <span>📊</span> Dashboard
+        </li>
+        <!-- Ubah 'Paket' menjadi elemen <li> dengan fungsi onclick -->
+        <li class="menu-item active" onclick="window.location.href='paket.html'">
+          <span>📦</span> Paket
+        </li>
+        <li class="menu-item active" onclick="window.location.href='karyawan.html'">
+          <span>👨‍💼</span> Karyawan
+        </li>
+        <li class="menu-item active" onclick="window.location.href='login.html'">
+          <span>↩</span> Logout
+        </li>
+      </ul>
+    
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <div class="main-header">
+        <h1>Dashboard</h1>
+        <p>Halaman dashboard Admin</p>
+      </div>
+
+      <!-- Welcome Card -->
+      <div class="welcome-card">
+        <div class="welcome-info">
+          <h2>Hello Admin, Sintia Aurelia</h2>
+          <p>Admin memiliki tugas yang perlu diselesaikan. Termasuk mengelola 2 paket masuk, mengirimkan 3 paket keluar, dan memantau 2 aktivitas gudang.</p>
+        </div>
+        <div class="profile">
+          <img src="ICON.png" alt="User Profile">
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <!-- Tabel Statistik Paket Masuk dan Keluar -->
+      <div class="table-container-statistik">
+        <h5>Data Paket Masuk dan Keluar📦</h5>
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Waktu</th>
+              <th>Paket Masuk</th>
+              <th>Paket Keluar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hari Ini</td>
+              <td>50</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Bulan Ini</td>
+              <td>200</td>
+              <td>180</td>
+            </tr>
+            <tr>
+              <td>Tahun Ini</td>
+              <td>2200</td>
+              <td>1800</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h5>Data Paket Masuk dan Keluar📦</h5>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Paket Masuk</th>
+            <th>Paket Keluar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hari Ini</td>
+            <td>70</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Bulan Ini</td>
+            <td>600</td>
+            <td>280</td>
+          </tr>
+          <tr>
+            <td>Tahun Ini</td>
+            <td>3500</td>
+            <td>2500</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Profile Sidebar -->
+    <div class="profile-sidebar">
+      <div class="profile-header">
+        <img src="host.png" alt="Profile Picture">
+        <h3>Sintia Aurelia</h3>
+      </div>
+      <div class="team-today">
+        <h4>Tim Admin</h4>
+        <ul>
+          <li>
+            <img src="host.png" alt="Team Member">
+            <p>Suheil Basyir</p>
+          </li>
+          <li>
+            <img src="host.png" alt="Team Member">
+            <p>Dinda Kirana</p>
+          </li>
+          <li>
+            <img src="host.png" alt="Team Member">
+            <p>Rani Kumala</p>
+          </li>
+          <li>
+            <img src="host.png" alt="Team Member">
+            <p>Alhamzah Basyar</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

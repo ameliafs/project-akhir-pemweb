@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rekap Data</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>PT Kurir Terdepan</h2>
+      </div>
+        <li class="menu-item" onclick="window.location.href='identitas.html'">
+          <span>👤</span> Identitas
+        </li>
+        <li class="menu-item" onclick="window.location.href='input_data.html'">
+          <span>✏️</span> Input Data
+        </li>
+        <li class="menu-item active" onclick="window.location.href='rekap_data.html'">
+          <span>📋</span> Rekap Data
+        </li>
+        <li class="menu-item" onclick="window.location.href='login.html'">
+          <span>↩️</span> Logout
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <div class="main-header">
+        <h1>Rekap Data</h1>
+        <p>Halaman untuk melihat rekap data paket masuk dan keluar</p>
+      </div>
+
+      <!-- Data Rekap Paket -->
+      <div class="data-table">
+        <h3>Rekap Paket 📦</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Nama Paket</th>
+              <th>Status Paket</th>
+              <th>Tanggal Pengiriman</th>
+              <th>Berat Paket (kg)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Paket A</td>
+              <td>Masuk</td>
+              <td>2024-12-01</td>
+              <td>2.5</td>
+            </tr>
+            <tr>
+              <td>Paket B</td>
+              <td>Keluar</td>
+              <td>2024-12-01</td>
+              <td>1.2</td>
+            </tr>
+            <tr>
+              <td>Paket C</td>
+              <td>Masuk</td>
+              <td>2024-12-02</td>
+              <td>3.0</td>
+            </tr>
+            <tr>
+                <td>Paket D</td>
+                <td>Masuk</td>
+                <td>2024-12-03</td>
+                <td>3.5</td>
+              </tr>
+              <tr>
+                <td>Paket E</td>
+                <td>Masuk</td>
+                <td>2024-12-04</td>
+                <td>2.6</td>
+              </tr>
+              <tr>
+                <td>Paket F</td>
+                <td>Keluar</td>
+                <td>2024-12-05</td>
+                <td>2.5</td>
+            <tr>
+                    <td>Paket G</td>
+                    <td>Masuk</td>
+                    <td>2024-12-06</td>
+                    <td>1.5</td>
+                  </tr>
+                  <tr>
+                    <td>Paket H</td>
+                    <td>Keluar</td>
+                    <td>2024-12-07</td>
+                    <td>5.0</td>
+                  </tr>
+                  <tr>
+                    <td>Paket I</td>
+                    <td>Masuk</td>
+                    <td>2024-12-08</td>
+                    <td>4.0</td>
+                  </tr>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Karyawan - PT Kurir Terdepan</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container.registrasi">
+        <div class="form-card">
+            <h2>Registrasi Karyawan</h2>
+            <p>Lengkapi data berikut untuk mendaftar sebagai karyawan PT Kurir Terdepan.</p>
+            <form id="form-registrasi" class="form" onsubmit="return validateForm()">
+                <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="jabatan" placeholder="Jabatan (contoh: Kurir, Admin)" required>
+                <input type="tel" id="telepon" placeholder="Nomor Telepon" pattern="[0-9]{10,13}" required>
+                <input type="text" id="password" placeholder="Password" required>
+                <input type="text" id="Alamat" placeholder="Alamat tempat tinggal" required>
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karyawan</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>PT Kurir Terdepan</h2>
+      </div>
+      <ul class="menu">
+        <li class="menu-item active" onclick="window.location.href='dashboard.html'">
+          <span>📊</span> Dashboard
+        </li>
+        <!-- Ubah 'Paket' menjadi elemen <li> dengan fungsi onclick -->
+        <li class="menu-item active" onclick="window.location.href='paket.html'">
+          <span>📦</span> Paket
+        </li>
+        <li class="menu-item active" onclick="window.location.href='karyawan.html'">
+          <span>👨‍💼</span> Karyawan
+        </li>
+        <li class="menu-item active" onclick="window.location.href='login.html'">
+          <span>↩</span> Logout
+        </li>
+      </ul>
+    
+    </div>
+  
+  <!-- Main Content -->
+  <div class="main-content">
+    <header>
+      <h4>Daftar Karyawan PT Kurir Terdepan</h4>
+      <button class="btn-add" onclick="window.location.href='registrasi.html'">+ Tambah Karyawan Baru</button>
+    </header>
+
+    <div class="search-container">
+      <label for="search-input">Search:</label>
+      <input type="text" id="search-input" placeholder="ketik nama karyawan yang dicari">
+    </div>
+
+    <div class="employee-container">
+      <!-- Kartu Karyawan 1 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Rafael Struick</h3>
+          <p><b>Jabatan:</b> Manager</p>
+          <p><b>Email:</b> StruickRafa3@kurirterdepan.com</p>
+          <p><b>Password:</b> Rafael10</p>
+          <p><b>Nomor telepon:</b> 08123456789</p>
+        </div>
+      </div>
+    
+      <!-- Kartu Karyawan 2 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Bayu Muhammad</h3>
+          <p><b>Jabatan:</b> Kurir Barang</p>
+          <p><b>Email:</b> muh.bayu59@kurirterdepan.com</p>
+          <p><b>Password:</b> bayuuu967A</p>
+          <p><b>Nomor telepon:</b> 08345781902</p>
+        </div>
+      </div>
+    
+      <!-- Kartu Karyawan 3 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Ranu Gustito</h3>
+          <p><b>Jabatan:</b> Kurir Barang</p>
+          <p><b>Email:</b> Ranuu53@kurirterdepan.com</p>
+          <p><b>Password:</b> tito311</p>
+          <p><b>Nomor telepon:</b> 082578017498</p>
+        </div>
+      </div>
+    
+      <!-- Kartu Karyawan 4 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Achmad Faiz</h3>
+          <p><b>Jabatan:</b> Assistant Manager</p>
+          <p><b>Email:</b> faizahmad@kurirterdepan.com</p>
+          <p><b>Password:</b> faizzSY437</p>
+          <p><b>Nomor telepon:</b> 08745321702</p>
+        </div>
+      </div>
+    
+      <!-- Kartu Karyawan 5 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Arga Dipta Wiryawan</h3>
+          <p><b>Jabatan:</b> Driver</p>
+          <p><b>Email:</b> argawiryawan@mail.com</p>
+          <p><b>Password:</b> argadipta900</p>
+          <p><b>Nomor telepon:</b> 08695216701</p>
+        </div>
+      </div>
+    
+      <!-- Kartu Karyawan 6 -->
+      <div class="employee-card">
+        <img src="manager.jpg" alt="Karyawan" class="employee-photo">
+        <div class="employee-info">
+          <h3>Sultan Nasrullah</h3>
+          <p><b>Jabatan:</b> Accounting Manager And Office Manager</p>
+          <p><b>Email:</b> SultanN35@mail.com</p>
+          <p><b>Password:</b> Nasrullah45</p>
+          <p><b>Nomor telepon:</b> 08568013259</p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
